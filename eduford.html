@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1</title>
+    <link rel="stylesheet" type="text/css" href="./eduford.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML,CSS,<br> Javascript and you are good to go.</p>
+            <a href="#" class="hero-btn">Visit Us To know More</a>
+        </div>
+    </section>
+    <!-- ---------------course----------- -->
+    <section class="course">
+        <h1>Courses we offer </h1>
+        <p>
+          There are several courses that are being offered in our university. Checkout the courses below
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>This course is for the students who are curently  aspiring to undergo into an intermdiate course.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>This course is for the students who are curently  aspiring to undergo into a degree course and lift up their future.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>This course is for the students who wish to get a master's degree and excel in their particular domain.</p>
+            </div>
+        </div>
+    </section>
+    <!------ campus----- -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>First ever Hi-tech based campus with all the facilites available</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="eduford_img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>NE
+
+                     YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------facilities ---------->
+    
+<section class="facilities">
+	<h1>
+		Our facilities
+	</h1>
+	<p>
+		Check out the facilities listed below
+	</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="
+			eduford_img/library.png">
+			<h3>World Class library</h3>
+			<p>When it comes to qualtiy education, you cant take risk owing to the career ahead. This is where you get one of the largest and hi-tech library. </p>
+
+		</div>
+
+		<div class="facilities-col">
+			<img src="
+			eduford_img/cafeteria.png">
+			<h3>Tasty and Healthy Food</h3>
+			<p>No compromise with health as there is old an saying:"Health is Wealth" </p>
+
+		</div>
+		<div class="facilities-col">
+			<img src="
+			eduford_img/basketball.png">
+			<h3>Largest Play Ground	</h3>
+			<p>An open field is necessary for every age of students in order to keep their mental and physical strength full of energy.</p>
+
+		</div>
+	</div>
+</section>
+
+    <script>
+    var navlinks1 = document.getElementById("navlinks");
+
+    function showmenu() {
+        navlinks1.style.width = "150px";
+    }
+
+    function hidemenu() {
+        navlinks1.style.width = "0";
+    }
+    </script>
+</body>
+
+</html>
